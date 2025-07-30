@@ -1,0 +1,28 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f9f9f9;
+  color: #333333;
+  background: url('./assets/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+}
+button {
+  cursor: pointer;
+  background: #477eff; /* peachy-orange, like a mango smoothie */
+  color: #2e2e4b;       /* deep chocolate text */
+  border: none;
+  border-radius: 25px;  /* pill-shaped */
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(92, 71, 255, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #4d71ff; /* slightly darker on hover */
+  box-shadow: 0 6px 14px rgba(71, 71, 255, 0.5);
+  transform: scale(1.05);
+}
