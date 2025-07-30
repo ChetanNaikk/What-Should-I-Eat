@@ -2,7 +2,7 @@
       border: 2px solid #ccc; 
       border-radius: 15px; 
       max-width: 300px;
-      max-height: 325px;
+      max-height: 350px;
       margin: 0 auto;
       padding: 10px;
       box-shadow: 0 0 10px rgba(11, 5, 180, 0.819);
@@ -22,7 +22,7 @@
 }
 
 .recipe-card p {
-  margin-top: 2px;
+  margin-top: 10px;
   color: #150258;
   font-size: 1rem;
 }
